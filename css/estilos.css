@@ -1,0 +1,228 @@
+@-webkit-keyframes animacion{
+  0%{
+    margin-top: 150%;
+  }
+  60%{margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}
+@media screen and (min-width:900px) {
+header{
+  animation: animacion 2s;
+}
+
+body{
+  font-family: "Dancing Script";
+  background: #02010a;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Contenido{
+  width: 900px;
+
+}
+
+#Cabecera{
+  width: 100%;
+  background-color: #5b7989;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 0 auto;
+  color: #ffffff;
+  text-shadow: 2px 2px  #02010a;
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+.Titulo h1{text-align: left;
+padding-left: 5%}
+.Titulo, .Enlaces{
+  width: 50%;
+}
+.Enlaces{
+  display: flex;
+  justify-content:center;
+}
+
+.Enlaces nav a:link{
+  color: #ffffff;
+  text-decoration: none;
+}
+.Enlaces nav a:active{
+  text-decoration: none;
+}
+.Enlaces nav a:visited{
+  color: #ffffff;
+}
+
+.Enlaces li{
+  padding-left:5%;
+  font-size: 150%;
+}
+.Enlaces nav{
+  padding-top: 2%;
+}
+.Enlaces nav ul{
+  display:flex;
+}
+
+#Imagen_Central{
+  background-color: #82c3a6;
+  width: 100%;
+}
+#Imagenes_secundarias{
+  background-color: #d5c75f;
+  border: 1px;
+  width: 100%;
+  display: flex;
+}
+
+#Imagen_Central img{
+  width: 90%;
+  padding: 5%;
+  -webkit-filter:drop-shadow(2px 2px 2px #02010a);
+  filter: drop-shadow(2px 2px 2px #02010a);
+
+}
+.Imagen21 img{
+  margin: 5%;
+  -webkit-filter:drop-shadow(2px 2px 2px #02010a);
+  filter: drop-shadow(2px 2px 2px #02010a);
+
+}
+.Imagen22 img{
+  margin: 5%;
+  -webkit-filter:drop-shadow(2px 2px 2px #02010a);
+  filter: drop-shadow(2px 2px 2px #02010a);
+}
+
+.Imagen21 img:hover{
+  transform: rotate(10deg);
+  background: #82c3a6;
+  border: 2px;
+}
+.Imagen22 img:hover{
+  transform: translateX(5px);
+  transform: translateY(-5px);
+  background: #82c3a6;
+  border: 2px;
+}
+
+#Pie{
+  background-color: #C6d5c5;
+  width: 100%;
+  display: flex;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.Contacto, .Termino, .Redes, .Derechos{
+  width: 25%;
+  margin-left: 2%;
+}
+}
+
+@media screen and (max-width:900px) {
+  header{
+    animation: animacion 2s;
+    }
+  body{
+    font-family: "Dancing Script";
+    background: #02010a;
+    width: 100%;
+    margin: 0 auto;
+    }
+
+    #Cabecera{
+      width: 100%;
+      background-color: #5b7989;
+      margin: 0 auto;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      color: #ffffff;
+      text-shadow: 2px 2px  #02010a;
+    }
+
+
+    .Titulo h1{text-align: center;}
+    .Titulo, .Enlaces{
+      width: 100%;
+    }
+    .Enlaces{
+      display: flex;
+      justify-content: center;
+    }
+    .Enlaces nav a:link{
+      color: #ffffff;
+      text-decoration: none;
+    }
+    .Enlaces nav a:active{
+      text-decoration: none;
+    }
+    .Enlaces nav a:visited{
+      color: #ffffff;
+    }
+    .Enlaces nav ul{
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+    .Enlaces li{
+      padding: 5%;
+      font-size: 150%;
+    }
+    nav{padding-right: 10%;}
+
+    #Imagen_Central{
+      background-color: #82c3a6;
+      width: 100%;
+      margin: 0 auto;
+    }
+    #Imagenes_secundarias{
+      background-color: #d5c75f;
+      border: 1px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    #Imagen_Central img{
+      width: 90%;
+      padding:5%;
+    }
+    .Imagen21 {
+      padding:5%;
+      width: 100%;
+    }
+    .Imagen22 {
+      padding: 5%;
+      width: 100%;
+    }
+
+    .Imagen21 img:hover{
+      transform: rotate(10deg);
+      background: #82c3a6;
+      border: 2px;
+    }
+    .Imagen22 img:hover{
+      transform: translateX(5px);
+      transform: translateY(-5px);
+      background: #82c3a6;
+      border: 2px;
+    }
+    #Pie{
+      background-color: #C6d5c5;
+      width: 100%;
+      margin: 0 auto;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    .Contacto, .Termino, .Redes, .Derechos{
+      width: 100%;
+      margin-left: 2%;
+    }
+}
